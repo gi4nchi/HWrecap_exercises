@@ -45,5 +45,8 @@ elif max*max > min1*min1 + min2*min2:
     print("Obtuse")
 else:
     print("Acute")
+s_p = (a + b + c) / 2
+area = (s_p*(s_p-a)*(s_p-b)*(s_p-c)) ** 0.5
+print('The area  is %0.2f' % area)
 
 # Print the area of the Triangle
